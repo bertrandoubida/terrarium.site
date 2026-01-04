@@ -37,7 +37,7 @@ controls.maxPolarAngle = Math.PI / 2;
 /* Load Terrarium */
 const loader = new GLTFLoader();
 loader.load(
-  "./terrarium.glb",
+  "public/terrarium.glb",
   (gltf) => {
     const model = gltf.scene;
     model.position.set(0, -1, 0);
